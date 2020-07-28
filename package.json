@@ -1,0 +1,29 @@
+{
+  "name": "mongoose_skeleton",
+  "version": "1.0.0",
+  "description": "In this assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemmons1993/scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bemmons1993/scraper/issues"
+  },
+  "homepage": "https://github.com/bemmons1993/scraper#readme"
+}
